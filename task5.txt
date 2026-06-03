@@ -1,0 +1,221 @@
+If this is for learning, coursework, or a lab exercise, you should only conduct OSINT on a target that you own, have permission to investigate, or that is a fictional training target.
+
+What is OSINT?
+
+Open Source Intelligence (OSINT) is the collection and analysis of information from publicly available sources to understand a person, organization, domain, or system.
+
+Typical OSINT Investigation Process
+
+1. Define the Target
+
+Examples:
+
+Company website
+
+Public organization
+
+Domain name
+
+Social media profile (with permission)
+
+Your own website
+
+
+2. Gather Basic Information
+
+Collect:
+
+Organization name
+
+Website URL
+
+Contact details
+
+Public email addresses
+
+Social media accounts
+
+
+Sources:
+
+Search engines
+
+Company websites
+
+Public directories
+
+Government records (where legally available)
+
+
+3. Domain Intelligence
+
+Analyze:
+
+WHOIS information
+
+DNS records
+
+Subdomains
+
+Hosting provider
+
+
+Useful tools:
+
+WHOIS
+
+nslookup
+
+dig
+
+SecurityTrails
+
+VirusTotal
+
+
+Example:
+
+whois example.com
+nslookup example.com
+
+4. Social Media Intelligence
+
+Look for:
+
+Official accounts
+
+Employee profiles
+
+Public posts
+
+Business information
+
+
+Platforms:
+
+LinkedIn
+
+X (Twitter)
+
+Facebook
+
+GitHub
+
+
+5. Technical Footprint Analysis
+
+Identify:
+
+Web technologies used
+
+Open ports (only on systems you are authorized to assess)
+
+Public repositories
+
+Publicly exposed documents
+
+
+Tools:
+
+Wappalyzer
+
+BuiltWith
+
+GitHub Search
+
+
+6. Metadata Analysis
+
+Public documents may reveal:
+
+Author names
+
+Software versions
+
+Creation dates
+
+
+Tools:
+
+ExifTool
+
+FOCA
+
+
+7. Risk Assessment
+
+Document findings such as:
+
+Exposed email addresses
+
+Outdated software versions
+
+Publicly available sensitive information
+
+Misconfigured services
+
+
+Sample OSINT Report Structure
+
+Executive Summary
+
+Brief overview of investigation objectives and findings.
+
+Target Information
+
+Target Name:
+
+Website:
+
+Investigation Date:
+
+
+Findings
+
+1. Domain Information
+
+
+2. DNS Records
+
+
+3. Social Media Presence
+
+
+4. Public Documents
+
+
+5. Technology Stack
+
+
+
+Risk Analysis
+
+Finding	Impact	Severity
+
+Public email exposure	Phishing risk	Medium
+Outdated CMS version	Potential vulnerability	High
+
+
+Recommendations
+
+Remove unnecessary public information.
+
+Enable multi-factor authentication.
+
+Regularly update software.
+
+Review public document metadata.
+
+
+Ethical and Legal Considerations
+
+Use only publicly available information.
+
+Respect privacy laws and terms of service.
+
+Do not attempt unauthorized access.
+
+Obtain written permission before investigating real systems.
+
+
+If you provide a domain or organization that you are authorized to assess, I can help you perform a safe OSINT analysis using only publicly available information.
