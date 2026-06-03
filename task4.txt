@@ -1,0 +1,153 @@
+A safe way to learn penetration testing is to use an isolated lab with intentionally vulnerable systems.
+
+1. Lab Setup
+
+Install:
+
+VirtualBox or VMware Workstation
+
+Kali Linux (attacker machine)
+
+Metasploitable 2 or OWASP Broken Web Applications (target machine)
+
+
+Configure both VMs on a host-only or internal virtual network so they cannot affect external systems.
+
+2. Reconnaissance
+
+Goal: Identify the target and gather information.
+
+Typical activities:
+
+Determine the target IP address.
+
+Check whether the target is reachable.
+
+Identify operating system characteristics.
+
+Discover exposed services.
+
+
+Information gathered may include:
+
+IP address
+
+Open ports
+
+Running services
+
+Operating system details
+
+
+3. Vulnerability Scanning
+
+Use security assessment tools to identify weaknesses.
+
+Common tools:
+
+Nmap
+
+Nikto
+
+OpenVAS
+
+
+Look for:
+
+Outdated software
+
+Weak configurations
+
+Default credentials
+
+Known vulnerabilities
+
+
+Document findings such as:
+
+Service	Version	Potential Risk
+
+FTP	Old version	Weak authentication
+HTTP	Outdated web app	Vulnerable pages
+SSH	Legacy configuration	Weak security settings
+
+
+4. Controlled Exploitation
+
+In a lab environment, exploitation is performed only to verify that a discovered vulnerability is real.
+
+Examples of learning objectives:
+
+Understanding weak passwords
+
+Observing insecure file permissions
+
+Demonstrating outdated software risks
+
+Testing vulnerable web applications such as:
+
+SQL Injection (training targets only)
+
+Cross-Site Scripting (XSS)
+
+Authentication weaknesses
+
+
+
+The goal is understanding impact, not causing damage.
+
+5. Post-Exploitation Analysis
+
+After successful access in the lab:
+
+Determine what information was exposed.
+
+Identify privilege levels obtained.
+
+Assess potential business impact.
+
+Recommend mitigations.
+
+
+Example findings:
+
+Weakness	Risk	Recommendation
+
+Default credentials	Unauthorized access	Change passwords
+Unpatched software	Remote compromise	Apply updates
+Excessive permissions	Data exposure	Follow least privilege
+
+
+6. Reporting
+
+A penetration test report should include:
+
+1. Executive Summary
+
+
+2. Scope
+
+
+3. Methodology
+
+
+4. Findings
+
+
+5. Risk Ratings
+
+
+6. Evidence
+
+
+7. Recommendations
+
+
+
+Key Learning Outcome
+
+A controlled penetration testing simulation teaches the typical workflow:
+
+Reconnaissance → Scanning → Vulnerability Identification → Controlled Validation → Reporting
+
+Always perform these activities only on systems you own or have explicit authorization to test.
