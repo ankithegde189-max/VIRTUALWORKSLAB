@@ -1,0 +1,161 @@
+Cybersecurity and Ethical Hacking: Core Principles
+What is Cybersecurity?
+
+Cybersecurity is the practice of protecting computers, networks, applications, and data from unauthorized access, attacks, damage, or theft. Its goal is to ensure that digital systems remain secure and trustworthy.
+
+Key Objectives of Cybersecurity
+Protect sensitive information from unauthorized access.
+Maintain the accuracy and reliability of data.
+Ensure systems and services remain available to authorized users.
+Detect, prevent, and respond to cyber threats.
+What is Ethical Hacking?
+
+Ethical hacking is the authorized practice of testing and evaluating computer systems, networks, or applications to identify security vulnerabilities before malicious attackers can exploit them.
+
+Responsibilities of an Ethical Hacker
+Conduct security assessments and penetration testing.
+Identify vulnerabilities in systems and applications.
+Recommend security improvements.
+Help organizations strengthen their cybersecurity posture.
+Benefits of Ethical Hacking
+Prevents data breaches.
+Identifies weaknesses before attackers do.
+Improves security awareness.
+Ensures compliance with security standards.
+Types of Hackers
+1. White Hat Hackers
+Ethical and authorized hackers.
+Work to improve security.
+Follow legal guidelines and obtain permission before testing.
+
+Example: Security consultants and penetration testers.
+
+2. Black Hat Hackers
+Malicious hackers who gain unauthorized access.
+Steal data, spread malware, or cause damage.
+Operate illegally.
+
+Example: Cybercriminals conducting ransomware attacks.
+
+3. Gray Hat Hackers
+Operate between white and black hats.
+May access systems without permission but usually do not intend harm.
+Often disclose vulnerabilities to organizations.
+
+Example: Independent researchers discovering security flaws.
+
+4. Script Kiddies
+Individuals with limited technical skills.
+Use pre-made hacking tools and scripts.
+Often attack systems for fun or recognition.
+5. Hacktivists
+Use hacking techniques to promote political or social causes.
+Target governments, organizations, or corporations.
+6. State-Sponsored Hackers
+Supported by governments.
+Conduct cyber espionage or cyber warfare.
+Target critical infrastructure and national security systems.
+The CIA Triad
+
+The CIA Triad is the foundation of information security.
+
+1. Confidentiality
+
+Ensures that sensitive information is accessible only to authorized individuals.
+
+Methods to Maintain Confidentiality
+Encryption
+Password protection
+Access controls
+Multi-factor authentication (MFA)
+
+Example: Protecting customer financial data from unauthorized access.
+
+2. Integrity
+
+Ensures that data remains accurate, consistent, and unaltered.
+
+Methods to Maintain Integrity
+Hashing
+Digital signatures
+Version control
+Access restrictions
+
+Example: Preventing unauthorized modification of banking transactions.
+
+3. Availability
+
+Ensures that systems and data are accessible when needed.
+
+Methods to Maintain Availability
+Backup systems
+Redundant servers
+Disaster recovery plans
+Protection against DDoS attacks
+
+Example: Ensuring an online shopping website remains operational during peak traffic.
+
+Common Cybersecurity Threats
+1. Malware
+Definition
+
+Malware (Malicious Software) is software designed to damage, disrupt, or gain unauthorized access to systems.
+
+Types of Malware
+Viruses
+Worms
+Trojans
+Spyware
+Adware
+Impact
+Data theft
+System crashes
+Performance degradation
+Unauthorized access
+
+Example: A Trojan disguising itself as legitimate software to steal user credentials.
+
+2. Phishing
+Definition
+
+Phishing is a social engineering attack where attackers trick users into revealing sensitive information such as passwords, credit card numbers, or personal data.
+
+Common Techniques
+Fake emails
+Fraudulent websites
+SMS phishing (Smishing)
+Voice phishing (Vishing)
+Impact
+Identity theft
+Financial loss
+Account compromise
+Data breaches
+
+Example: An email pretending to be from a bank asking users to verify their login credentials.
+
+3. Ransomware
+Definition
+
+Ransomware is a type of malware that encrypts a victim's files and demands payment to restore access.
+
+How It Works
+Infects a system.
+Encrypts files.
+Displays a ransom note.
+Demands payment, often in cryptocurrency.
+Impact
+Loss of access to critical data
+Business disruption
+Financial losses
+Reputational damage
+
+Example: A hospital's patient records becoming inaccessible due to a ransomware attack.
+
+Impact of Cyber Threats on Systems
+Threat	Impact on Confidentiality	Impact on Integrity	Impact on Availability
+Malware	Data theft	Data modification	System disruption
+Phishing	Credential theft	Unauthorized changes	Account lockouts
+Ransomware	Data exposure	File corruption	Data and system unavailability
+Conclusion
+
+Cybersecurity focuses on protecting digital assets from threats and attacks. Ethical hackers help organizations identify and fix vulnerabilities before malicious actors exploit them. The CIA Triad—Confidentiality, Integrity, and Availability—forms the foundation of information security. Common threats such as malware, phishing, and ransomware can compromise data, disrupt operations, and cause significant financial and reputational damage, making cybersecurity essential for individuals and organizations alike.
