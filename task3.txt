@@ -1,0 +1,293 @@
+Networking & Reconnaissance
+
+1. Fundamental Networking Concepts
+
+IP Address
+
+An IP (Internet Protocol) Address is a unique identifier assigned to a device on a network.
+
+Types:
+
+IPv4: 192.168.1.1
+
+IPv6: 2001:0db8:85a3::8a2e:0370:7334
+
+
+Example: When you visit a website, your computer communicates with the server using IP addresses.
+
+
+---
+
+DNS (Domain Name System)
+
+DNS translates human-readable domain names into IP addresses.
+
+Example:
+
+Domain: google.com
+
+IP Address: 142.250.xxx.xxx
+
+
+Without DNS, users would need to remember IP addresses instead of website names.
+
+
+---
+
+Ports
+
+Ports are logical communication endpoints used by applications.
+
+Port	Service
+
+20/21	FTP
+22	SSH
+23	Telnet
+25	SMTP
+53	DNS
+80	HTTP
+443	HTTPS
+
+
+Example:
+
+Accessing a website uses Port 80 (HTTP) or Port 443 (HTTPS).
+
+
+
+---
+
+Network Protocols
+
+Protocols define rules for communication between devices.
+
+Common Protocols:
+
+HTTP – Web communication
+
+HTTPS – Secure web communication
+
+FTP – File transfer
+
+SSH – Secure remote access
+
+TCP – Reliable communication
+
+UDP – Fast communication without error checking
+
+ICMP – Network diagnostics (used by ping)
+
+
+
+---
+
+2. Reconnaissance (Information Gathering)
+
+Reconnaissance is the process of collecting information about a target before security testing.
+
+Types of Reconnaissance
+
+Passive Reconnaissance
+
+Collecting publicly available information without directly interacting with the target.
+
+Examples:
+
+Search engines
+
+Public websites
+
+Social media
+
+WHOIS records
+
+
+Active Reconnaissance
+
+Directly interacting with the target system.
+
+Examples:
+
+Port scanning
+
+Ping sweeps
+
+DNS queries
+
+
+Only perform active reconnaissance on systems you own or have permission to test.
+
+
+---
+
+3. Basic Reconnaissance Commands
+
+Check IP Address
+
+Windows
+
+ipconfig
+
+Linux/Kali
+
+ip addr
+
+
+---
+
+Test Connectivity
+
+ping example.com
+
+Purpose:
+
+Verify whether a host is reachable.
+
+Measure response time.
+
+
+
+---
+
+DNS Lookup
+
+nslookup example.com
+
+Displays:
+
+IP address
+
+DNS server information
+
+
+
+---
+
+Trace Network Route
+
+Windows
+
+tracert example.com
+
+Linux
+
+traceroute example.com
+
+Shows the path packets take to reach a destination.
+
+
+---
+
+View Open Connections
+
+netstat -an
+
+Displays:
+
+Active connections
+
+Listening ports
+
+
+
+---
+
+4. Common Reconnaissance Tools
+
+Nmap
+
+A network discovery and auditing tool.
+
+Example:
+
+nmap scanme.nmap.org
+
+Can identify:
+
+Open ports
+
+Running services
+
+Operating system information
+
+
+
+---
+
+WHOIS
+
+Used to obtain domain registration information.
+
+Example:
+
+whois example.com
+
+Provides:
+
+Registrar details
+
+Registration dates
+
+Nameservers
+
+
+
+---
+
+Dig (Linux)
+
+DNS investigation tool.
+
+dig example.com
+
+Useful for:
+
+DNS records
+
+Mail servers
+
+Nameservers
+
+
+
+---
+
+5. Reconnaissance Workflow
+
+1. Identify the target domain.
+
+
+2. Gather public information (WHOIS, DNS).
+
+
+3. Resolve domain to IP address.
+
+
+4. Identify exposed services and ports (with permission).
+
+
+5. Analyze the collected information.
+
+
+
+
+---
+
+Key Takeaways
+
+IP Address: Identifies devices on a network.
+
+DNS: Converts domain names into IP addresses.
+
+Ports: Communication endpoints for services.
+
+Protocols: Rules governing network communication.
+
+Reconnaissance: Information gathering phase of cybersecurity.
+
+Passive Recon: Uses public sources.
+
+Active Recon: Direct interaction with systems (requires authorization).
+
+
+These concepts form the foundation for ethical hacking, penetration testing, network security, and cybersecurity analysis.
